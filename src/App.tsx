@@ -3,8 +3,21 @@
 function App() {
   return (
     <div className="app">
+      <nav className="navbar">
+        <div className="nav-container">
+          <h1 className="nav-logo">Villa Babel</h1>
+          <ul className="nav-menu">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#booking">Book</a></li>
+          </ul>
+        </div>
+      </nav>
       <main>
-        <header className="hero">
+        <header className="hero" id="hero">
         <div className="hero-copy">
           <span className="eyebrow">Villa Babel | Madeira</span>
           <h1>Luxury holiday villa by the Atlantic</h1>
@@ -14,18 +27,37 @@ function App() {
         <img src="https://villa-babel.com/wp-content/uploads/2022/11/Amazing-seaview.jpg" alt="Ocean view from Villa Babel" />
       </header>
 
-      <section className="about">
+      <section className="about" id="about">
         <div className="section-copy">
           <span className="eyebrow">About the Villa</span>
           <h2>An unforgettable Madeira retreat</h2>
           <p>Villa Babel offers large private terraces, sun-drenched lounges, and an elevated sea view. Relax in exclusive privacy while being a short drive from Garajau, Reis Magos and Madeira’s best hiking paths.</p>
+          <ul className="features">
+            <li>Private pool with ocean views</li>
+            <li>Fully equipped kitchen</li>
+            <li>Spacious living areas</li>
+            <li>Al fresco dining terrace</li>
+          </ul>
         </div>
         <div className="section-image">
           <img src="https://villa-babel.com/wp-content/uploads/2021/06/2M_20210607_165845-2-768x614.jpeg" alt="Villa interior view" />
         </div>
       </section>
 
-      <section className="location-activities">
+      <section className="gallery" id="gallery">
+        <span className="eyebrow">Photo Gallery</span>
+        <h2>Explore Villa Babel</h2>
+        <div className="gallery-grid">
+          <img src="https://villa-babel.com/wp-content/uploads/2022/11/Amazing-seaview.jpg" alt="Seaview" />
+          <img src="https://villa-babel.com/wp-content/uploads/2021/06/2M_20210607_165845-2-768x614.jpeg" alt="Interior" />
+          <img src="https://villa-babel.com/wp-content/uploads/2021/04/flowershow-768x482.jpg" alt="Flower Festival" />
+          <img src="https://villa-babel.com/wp-content/uploads/2021/05/2019-04-30-Levada-walk-Madeira-DSC_4452-1200x763-1-768x488.jpg" alt="Levada walk" />
+          <img src="https://villa-babel.com/wp-content/uploads/2021/04/scenery1-768x432.jpg" alt="Scenery" />
+          <img src="https://villa-babel.com/wp-content/uploads/2021/05/fruit-768x432.jpg" alt="Local food" />
+        </div>
+      </section>
+
+      <section className="location-activities" id="location">
         <div className="section-copy">
           <span className="eyebrow">Location & Activities</span>
           <h2>Explore Madeira from Villa Babel</h2>
@@ -47,10 +79,15 @@ function App() {
             <h3>Cultural Sights</h3>
             <p>Discover Madeira’s charming towns, historic villages, and local markets.</p>
           </article>
+          <article>
+            <img src="https://villa-babel.com/wp-content/uploads/2021/05/fruit-768x432.jpg" alt="Madeira local food" />
+            <h3>Local Cuisine</h3>
+            <p>Taste authentic Madeira dishes, fresh seafood, and tropical fruits.</p>
+          </article>
         </div>
       </section>
 
-      <section className="reviews">
+      <section className="reviews" id="reviews">
         <span className="eyebrow">Testimonials</span>
         <h2>What guests love</h2>
         <div className="review-grid">
@@ -63,6 +100,11 @@ function App() {
             <p>“The location was ideal, and the private pool made our stay unforgettable. Highly recommended!”</p>
             <span>⭐⭐⭐⭐⭐</span>
             <strong>Mark T.</strong>
+          </article>
+          <article className="review">
+            <p>“Beautiful property with excellent amenities. The views are stunning and the area is perfect for exploring.”</p>
+            <span>⭐⭐⭐⭐⭐</span>
+            <strong>Sarah L.</strong>
           </article>
         </div>
       </section>
