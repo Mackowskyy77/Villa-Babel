@@ -92,28 +92,46 @@ function App() {
         <h2>What guests love</h2>
         <div className="review-grid">
           <article className="review">
+            <img src="https://ui-avatars.com/api/?name=Vincent+CANTONE&background=1e40af&color=fff&size=50" alt="Vincent CANTONE profile" className="profile-pic" />
+            <p>"Idéal pour un groupe. Bonne accueil. Bien situé pour rayonner. Proche de l'aéroport et ça c'est top quand l'avion décolle à 4h du mat 😅"</p>
+            <span>⭐⭐⭐⭐⭐</span>
+            <strong>Vincent CANTONE</strong>
+            <small>1 year ago</small>
+          </article>
+          <article className="review">
+            <img src="https://ui-avatars.com/api/?name=Artur+Kaminski&background=1e40af&color=fff&size=50" alt="Artur Kaminski profile" className="profile-pic" />
+            <p>"Sehr nette Gastgeber, sehr zuvorkommend."</p>
+            <span>⭐⭐⭐⭐⭐</span>
+            <strong>Artur Kaminski</strong>
+            <small>2 years ago</small>
+          </article>
+          <article className="review">
             <img src="https://ui-avatars.com/api/?name=Jonas+Keturka&background=1e40af&color=fff&size=50" alt="Jonas Keturka profile" className="profile-pic" />
             <p>"We were a group of 11 and had a perfect time. All the bedrooms have en-suite bathrooms, plenty of space for a party and the pool is super instagram friendly. No issues with the host - we broke a few glasses and lost one pool umbrella which was not a problem 😅"</p>
             <span>⭐⭐⭐⭐⭐</span>
             <strong>Jonas Keturka</strong>
-          </article>
-          <article className="review">
-            <img src="https://ui-avatars.com/api/?name=Alyson+Norman&background=1e40af&color=fff&size=50" alt="Alyson Norman profile" className="profile-pic" />
-            <p>"Our family stayed at this amazing villa in August and had a truly wonderful time. Manuel and his wife are incredibly helpful, even taking us shopping on a couple of occasions. I would highly recommend this villa to any large groups looking for a relaxed time in Madeira."</p>
-            <span>⭐⭐⭐⭐⭐</span>
-            <strong>Alyson Norman</strong>
+            <small>2 years ago</small>
           </article>
           <article className="review">
             <img src="https://ui-avatars.com/api/?name=Deniz+A&background=1e40af&color=fff&size=50" alt="Deniz A profile" className="profile-pic" />
             <p>"Immaculately maintained accommodation in a beautiful part of Madeira. Amazing views, great amenities nearby and fantastic hosts. Would not hesitate to book here again!"</p>
             <span>⭐⭐⭐⭐⭐</span>
             <strong>Deniz A</strong>
+            <small>3 years ago</small>
           </article>
           <article className="review">
             <img src="https://ui-avatars.com/api/?name=Belle&background=1e40af&color=fff&size=50" alt="Belle profile" className="profile-pic" />
             <p>"This was a beautiful place. There were 12 of us and we were all very comfortable. The owner and his wife were very accommodating and very helpful. Would definitely recommend this place. Be prepared for steep streets, but cabs are very reasonable."</p>
             <span>⭐⭐⭐⭐⭐</span>
             <strong>Belle</strong>
+            <small>3 years ago</small>
+          </article>
+          <article className="review">
+            <img src="https://ui-avatars.com/api/?name=Alyson+Norman&background=1e40af&color=fff&size=50" alt="Alyson Norman profile" className="profile-pic" />
+            <p>"Our family stayed at this amazing villa in August and had a truly wonderful time. Manuel and his wife are incredibly helpful, even taking us shopping on a couple of occasions. I would highly recommend this villa to any large groups looking for a relaxed time in Madeira."</p>
+            <span>⭐⭐⭐⭐⭐</span>
+            <strong>Alyson Norman</strong>
+            <small>3 years ago</small>
           </article>
         </div>
       </section>
