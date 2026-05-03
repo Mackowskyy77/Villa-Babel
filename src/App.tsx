@@ -59,30 +59,30 @@ function App() {
 
       <section className="location-activities" id="location">
         <div className="section-copy">
-          <span className="eyebrow">Location & Activities</span>
-          <h2>Explore Madeira from Villa Babel</h2>
-          <p>Discover Madeira’s flower festivals, rich cuisine, scenic levada walks, and dramatic cliffs. The villa is ideally placed for both tranquil island breaks and active excursions.</p>
+          <span className="eyebrow">Explore Villa Babel</span>
+          <h2>Villa Features & Amenities</h2>
+          <p>Discover the luxurious spaces and world-class amenities that make Villa Babel the perfect Madeira escape. From elegant bedrooms to sun-kissed terraces, every corner is designed for comfort and relaxation.</p>
         </div>
         <div className="activity-grid">
           <article>
-            <img src="https://villa-babel.com/wp-content/uploads/2021/04/flowershow-768x482.jpg" alt="Madeira Flower Festival" />
-            <h3>Flower Festival</h3>
-            <p>Visit the colorful parade and gardens that make Madeira famous.</p>
+            <img src="https://villa-babel.com/wp-content/uploads/2021/06/2M_20210607_165845-2-768x614.jpeg" alt="Master Bedroom at Villa Babel" />
+            <h3>Master Bedroom</h3>
+            <p>Luxurious master suite with en-suite bathroom, stunning views, and premium bedding for ultimate comfort.</p>
           </article>
           <article>
-            <img src="https://villa-babel.com/wp-content/uploads/2021/05/2019-04-30-Levada-walk-Madeira-DSC_4452-1200x763-1-768x488.jpg" alt="Levada walk in Madeira" />
-            <h3>Levada Walks</h3>
-            <p>Step into the lush forests and enjoy breathtaking island trails.</p>
+            <img src="https://villa-babel.com/wp-content/uploads/2022/11/Amazing-seaview.jpg" alt="Private Pool and Terrace" />
+            <h3>Private Pool & Terrace</h3>
+            <p>Relax by your exclusive pool with panoramic ocean views and spacious sun terraces for unforgettable moments.</p>
           </article>
           <article>
-            <img src="https://villa-babel.com/wp-content/uploads/2021/04/scenery1-768x432.jpg" alt="Madeira cultural scenery" />
-            <h3>Cultural Sights</h3>
-            <p>Discover Madeira’s charming towns, historic villages, and local markets.</p>
+            <img src="https://villa-babel.com/wp-content/uploads/2021/05/fruit-768x432.jpg" alt="Dining Area" />
+            <h3>Dining & Kitchen</h3>
+            <p>Fully equipped kitchen and elegant dining area perfect for family meals and entertaining guests.</p>
           </article>
           <article>
-            <img src="https://villa-babel.com/wp-content/uploads/2021/05/fruit-768x432.jpg" alt="Madeira local food" />
-            <h3>Local Cuisine</h3>
-            <p>Taste authentic Madeira dishes, fresh seafood, and tropical fruits.</p>
+            <img src="https://villa-babel.com/wp-content/uploads/2021/05/2019-04-30-Levada-walk-Madeira-DSC_4452-1200x763-1-768x488.jpg" alt="Living Room View" />
+            <h3>Living Spaces</h3>
+            <p>Spacious living areas with comfortable seating, entertainment options, and breathtaking island views.</p>
           </article>
         </div>
       </section>
